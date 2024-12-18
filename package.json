@@ -1,0 +1,16 @@
+{
+  "name": "07_cypress_2_petstore",
+  "version": "1.0.0",
+  "description": "Задание 2 (Swagger Petstore)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "npx cypress open",
+    "cloud": "npx cypress run --record --key 41b128ba-a812-43bc-a0cd-776065967afd"
+  },
+  "author": "SergGrebnev",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.17.0"
+  }
+}
